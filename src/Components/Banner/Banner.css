@@ -1,0 +1,14 @@
+.banner{
+    background-image: url('http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/parallax/img7.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.inner_content{
+    padding-top: 150px;
+}
+#service > h1 {
+	padding: 15px;
+	text-align: center;
+}

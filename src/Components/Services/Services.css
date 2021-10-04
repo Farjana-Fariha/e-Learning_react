@@ -1,0 +1,32 @@
+.service-card {
+	display: inline-block;
+	max-width: 30.33%;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.breadcrumb{
+    background-image: url('http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/parallax/img5.jpg');
+    padding: 50px 50px;
+    background-size: cover;
+    text-align: center;
+}
+.breadcrumb h2{
+    text-align: center;
+}
+.center h2 {
+	font-size: 47px;
+}
+
+.list_design ul {
+    margin: 0;
+  }
+  .list_design ul li {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .design-img img {
+	width: 43%;
+}
+.col-xl-6.extra_class {
+	margin-bottom: 15px;
+}
