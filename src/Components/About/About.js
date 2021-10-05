@@ -1,7 +1,11 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Form } from 'react-bootstrap';
 import Teacher from '../Teacher/Teacher';
+import avatar1 from '../../img/avar1.jpg';
+import avatar2 from '../../img/avar2.jpg';
+import avatar3 from '../../img/avar3.jpg';
+
 
 const About = () => {
     return (
@@ -36,13 +40,13 @@ const About = () => {
                 </div>
                 <div className='row outsidemargin'>
                     <div className='col-xl-4'>
-                        <Teacher name='Farjana Fariha' discription=' i am professional teacher with 6+ experience.' image={'http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/avatar/avatar-chef-6.jpg'}></Teacher>
+                        <Teacher name='Farjana Fariha' discription=' i am professional teacher with 6+ experience.' image={avatar1}></Teacher>
                     </div>
                     <div className='col-xl-4'>
-                        <Teacher name='Ahsan Riad' discription=' i am professional teacher with 8+ experience.' image={'http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/avatar/avatar-chef-7.jpg'}></Teacher>
+                        <Teacher name='Ahsan Riad' discription=' i am professional teacher with 8+ experience.' image={avatar2}></Teacher>
                     </div>
                     <div className='col-xl-4'>
-                        <Teacher name='Hafez Kurban' discription=' i am professional teacher with 2+ experience.' image={'http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/avatar/avatar-chef-8.jpg'}></Teacher>
+                        <Teacher name='Hafez Kurban' discription=' i am professional teacher with 2+ experience.' image={avatar3}></Teacher>
                     </div>
                 </div>
             </div>
