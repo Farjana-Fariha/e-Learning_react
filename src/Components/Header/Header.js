@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import MenuStyle from './Header.css'
+import image from '../../img/logo.svg'
 
 const Header = () => {
     const activeStyle = {
@@ -12,7 +13,7 @@ const Header = () => {
             <div className='row align-items-center'>
                 <div className='col-xl-4'>
                     <div className='logo'>
-                        <img src='http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/logos/logo-elearning-color.svg'></img>
+                        <img src={image}></img>
                     </div>
                 </div>
                 <div className='col-xl-8'>

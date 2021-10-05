@@ -1,11 +1,12 @@
 import React from 'react';
 import { ButtonGroup, Button } from 'react-bootstrap';
-import style from './Banner.css'
+import style from './Banner.css';
+import imageBanar from '../../img/Banar.jpg';
 
 const Banner = () => {
     return (
         <div className='banner'>
-            <img src='http://www.nicdarkthemes.com/themes/education/html/demo/e-learning/img/parallax/img7.jpg' />
+            <img src={imageBanar} />
             <div className='inner_content'>
                 <h1>Find the Best Courses</h1>
                 <h4>All the top courses – from our school and the best our teachers.</h4>
