@@ -31,12 +31,15 @@ function App() {
           </Route>
           <Route path='/about'>
             <About></About>
+            <Footer></Footer>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+            <Footer></Footer>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
+            <Footer></Footer>
           </Route>
         </Switch>
       </Router>

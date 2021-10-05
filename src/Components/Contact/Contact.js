@@ -21,8 +21,8 @@ const Contact = () => {
                                 <Form.Control type="email" placeholder="Enter your email" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>First Name</Form.Label>
-                                <Form.Control type="text" placeholder="Enter First Name" />
+                                <Form.Label>Mobile Number</Form.Label>
+                                <Form.Control type="number" placeholder="Enter mobile number" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label>Message</Form.Label>

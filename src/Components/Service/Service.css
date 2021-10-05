@@ -1,0 +1,22 @@
+.service-card{
+    min-height: 145px;
+}
+#service {
+	text-align: center;
+}
+.service-card {
+	display: inline-block;
+	max-width: 22.33%;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.card-body {
+	flex: 1 1 auto;
+	height: 196px !important;
+	overflow: hidden;
+}
+.row.outsidemargin {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 33px;
+}
