@@ -1,6 +1,5 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import { ButtonGroup, Form, Button } from 'react-bootstrap';
 
 const Contact = () => {
     return (
@@ -17,7 +16,7 @@ const Contact = () => {
                                 <Form.Control type="text" placeholder="Enter First Name" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>email</Form.Label>
+                                <Form.Label>Email</Form.Label>
                                 <Form.Control type="email" placeholder="Enter your email" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -28,7 +27,7 @@ const Contact = () => {
                                 <Form.Label>Message</Form.Label>
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
-                            <Button variant="primary" type="submit">
+                            <Button  variant="primary my-2" type="submit">
                                 Submit
                             </Button>
                         </Form>

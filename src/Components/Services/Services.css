@@ -25,3 +25,7 @@
 .col-xl-6.extra_class {
 	margin-bottom: 15px;
 }
+div#service h1 {
+  margin: 40px 5px;
+  font-size: 45px;
+}
